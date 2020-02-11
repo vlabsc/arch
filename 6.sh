@@ -7,7 +7,7 @@ pacman -S --noconfirm lightdm
 pacman -S --noconfirm lightdm-gtk-greeter
 pacman -S --noconfirm konsole
 
-sudo systemctl enable lightdm.service
+systemctl enable lightdm.service
 echo "try the resolution best is 1920x1440"
 echo "completed."
-sudo reboot
+reboot
