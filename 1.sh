@@ -15,4 +15,4 @@ mount /dev/sda3 /mnt
 swapon /dev/sda2
 mkdir /mnt/install
 cp *.sh /mnt/install
-echo "1.sh completed."
+echo "1.sh - partition completed. run 2.sh"

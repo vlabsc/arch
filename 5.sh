@@ -14,5 +14,5 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # pacman -Syu linux
 
 ln -s /usr/bin/clear /usr/bin/cls
-echo "5.sh completed. do a reboot."
+echo "5.sh - linux lts installed, grub configured and completed. do a reboot and run 6.sh."
 #reboot

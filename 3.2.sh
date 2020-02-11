@@ -6,4 +6,5 @@ ln -sf /usr/share/zoneinfo/US/Central /etc/localtime
 ls /usr/share/zoneinfo
 
 echo "arch" > /etc/hostname
-echo "3.2.sh completed."
+ln -s /usr/bin/clear /usr/bin/cls
+echo "3.2.sh - locale configured and completed. run 4.sh"
