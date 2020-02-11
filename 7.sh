@@ -6,4 +6,5 @@ passwd vlabs
 pacman -S --noconfirm sudo
 echo " Find and uncomment the following line: %wheel ALL=(ALL) ALL"
 visudo
-echo "completed."
+echo "7.sh completed. do a reboot."
+#reboot

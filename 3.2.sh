@@ -6,4 +6,4 @@ ln -sf /usr/share/zoneinfo/US/Central /etc/localtime
 ls /usr/share/zoneinfo
 
 echo "arch" > /etc/hostname
-echo "completed."
+echo "3.2.sh completed."

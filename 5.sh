@@ -14,5 +14,5 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # pacman -Syu linux
 
 ln -s /usr/bin/clear /usr/bin/cls
-echo "completed."
-reboot
+echo "5.sh completed. do a reboot."
+#reboot

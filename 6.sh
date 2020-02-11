@@ -9,5 +9,5 @@ pacman -S --noconfirm lightdm-gtk-greeter-settings
 
 systemctl enable lightdm.service
 echo "try the resolution best is 1920x1440"
-echo "completed."
-reboot
+echo "6.sh completed. do a reboot."
+#reboot

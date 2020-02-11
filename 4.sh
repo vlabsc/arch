@@ -3,7 +3,7 @@ pacman -S --noconfirm grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 
-echo "completed. do a reboot."
+echo "4.sh completed. do a reboot."
 passwd
 exit
-reboot
+#reboot
