@@ -1,4 +1,6 @@
 echo "-------- xorg ------------------------------------"
+ip link
+dhcpcd enp0s3
 pacman -S --noconfirm xorg xorg-init xorg-server
 pacman -S --noconfirm mate mate-extra
 pacman -S --noconfirm lightdm

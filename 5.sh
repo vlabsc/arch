@@ -13,6 +13,6 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # incase the kernel update fails. liveUSB. chroot into /mnt/
 # pacman -Syu linux
 
-
+ln -s /usr/bin/clear /usr/bin/cls
 echo "completed."
 sudo reboot
