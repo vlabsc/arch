@@ -15,5 +15,5 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 ln -s /usr/bin/clear /usr/bin/cls
 echo "5.sh - linux lts installed, grub configured and completed. do a reboot and run 6.sh."
-mv 6.sh completed/
+mv 5.sh completed/
 #reboot
