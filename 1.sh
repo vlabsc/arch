@@ -21,4 +21,5 @@ cp *.sh /mnt/install
 mkdir /mnt/install/completed/
 mkdir completed
 ln -s /usr/bin/clear /usr/bin/cls
+mv 1.sh completed/
 echo "1.sh - partition completed. run 2.sh"
