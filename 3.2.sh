@@ -12,3 +12,4 @@ ln -s /usr/bin/clear /usr/bin/cls
 systemctl enable dhcpcd@enp0s3.service 
 
 echo "3.2.sh - locale configured and completed. run 4.sh"
+mv 3.2.sh completed/

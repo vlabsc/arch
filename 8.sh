@@ -8,4 +8,5 @@ sudo pacman -S --noconfirm wireshark-qt hping nmap netcat ruby inetutils gnu-net
 sudo pacman -Syu
 
 echo "8.sh - essential package installation completed. do a reboot."
+mv 8.sh completed/
 #reboot
