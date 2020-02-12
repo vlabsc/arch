@@ -15,4 +15,5 @@ mount /dev/sda3 /mnt
 swapon /dev/sda2
 mkdir /mnt/install
 cp *.sh /mnt/install
+ln -s /usr/bin/clear /usr/bin/cls
 echo "1.sh - partition completed. run 2.sh"
