@@ -17,7 +17,16 @@ mkswap /dev/sda2
 mount /dev/sda3 /mnt
 swapon /dev/sda2
 mkdir /mnt/install
-cp *.sh /mnt/install
+cp 1.sh /mnt/install/completed/
+cp 2.sh /mnt/install/completed/
+cp 3.1.sh /mnt/install/completed/
+cp 3.2.sh /mnt/install/
+cp 4.sh /mnt/install/
+cp 5.sh /mnt/install/
+cp 6.sh /mnt/install/
+cp 7.sh /mnt/install/
+cp 8.sh /mnt/install/
+
 mkdir /mnt/install/completed/
 mkdir completed
 ln -s /usr/bin/clear /usr/bin/cls
