@@ -1,6 +1,6 @@
 echo "-------- xorg ------------------------------------"
-ip link
-sudo dhcpcd enp0s3
+#ip link
+#sudo dhcpcd enp0s3
 pacman -S --noconfirm xorg xorg-server
 pacman -S --noconfirm mate mate-extra
 pacman -S --noconfirm lightdm

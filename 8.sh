@@ -1,6 +1,6 @@
 echo " -------- other tools ------------------------------------ "
-ip link
-sudo dhcpcd enp0s3
+#ip link
+#sudo dhcpcd enp0s3
 sudo pacman -S --noconfirm firefox gedit chromium pluma konsole conky
 sudo pacman -S --noconfirm p7zip unrar tar rsync
 

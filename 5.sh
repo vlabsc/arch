@@ -1,6 +1,6 @@
 echo "-------- post install ------------------------------------"
-ip link
-dhcpcd enp0s3
+#ip link
+#dhcpcd enp0s3
 
 pacman -Syu --noconfirm
 

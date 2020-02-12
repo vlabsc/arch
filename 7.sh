@@ -1,6 +1,6 @@
 echo " -------- user add ------------------------------------ "
-ip link
-dhcpcd enp0s3
+#ip link
+#dhcpcd enp0s3
 useradd -m -g users -G wheel,storage,power -s /bin/bash vlabs
 passwd vlabs
 pacman -S --noconfirm sudo
