@@ -1,4 +1,7 @@
 echo " -------- partition ------------------------------------ "
+# first do pacman -Syy
+# pacman -S git dos2unix
+
 # fdisk /dev/sd(a/b/c)
 
 # p > list
