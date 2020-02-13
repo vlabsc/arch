@@ -7,6 +7,6 @@ sudo pacman -S --noconfirm p7zip unrar tar rsync
 sudo pacman -S --noconfirm wireshark-qt hping nmap netcat ruby inetutils gnu-netcat bleachbit
 sudo pacman -Syu
 
-echo "8.sh - essential package installation completed. do a reboot."
 sudo mv 8.sh completed/
+echo "8.sh - essential package installation completed. do a reboot."
 reboot
